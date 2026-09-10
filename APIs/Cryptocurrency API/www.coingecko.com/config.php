@@ -1,0 +1,138 @@
+<?php
+// Copyright 2026 J Code
+// SPDX-License-Identifier: Apache-2.0
+return [
+
+    'currencies' => [
+        'bitcoin'          => ['label' => 'Bitcoin',           'type' => 'crypto', 'cg_id' => 'bitcoin'],
+        'ethereum'         => ['label' => 'Ethereum',          'type' => 'crypto', 'cg_id' => 'ethereum'],
+        'tether'           => ['label' => 'Tether',            'type' => 'crypto', 'cg_id' => 'tether'],
+        'bnb'              => ['label' => 'BNB',               'type' => 'crypto', 'cg_id' => 'binancecoin'],
+        'solana'           => ['label' => 'Solana',            'type' => 'crypto', 'cg_id' => 'solana'],
+        'usdc'             => ['label' => 'USD Coin',          'type' => 'crypto', 'cg_id' => 'usd-coin'],
+        'xrp'              => ['label' => 'XRP',               'type' => 'crypto', 'cg_id' => 'ripple'],
+        'dogecoin'         => ['label' => 'Dogecoin',          'type' => 'crypto', 'cg_id' => 'dogecoin'],
+        'toncoin'          => ['label' => 'Toncoin',           'type' => 'crypto', 'cg_id' => 'the-open-network'],
+        'cardano'          => ['label' => 'Cardano',           'type' => 'crypto', 'cg_id' => 'cardano'],
+        'shiba_inu'        => ['label' => 'Shiba Inu',         'type' => 'crypto', 'cg_id' => 'shiba-inu'],
+        'avalanche'        => ['label' => 'Avalanche',         'type' => 'crypto', 'cg_id' => 'avalanche-2'],
+        'tron'             => ['label' => 'TRON',              'type' => 'crypto', 'cg_id' => 'tron'],
+        'polkadot'         => ['label' => 'Polkadot',          'type' => 'crypto', 'cg_id' => 'polkadot'],
+        'chainlink'        => ['label' => 'Chainlink',         'type' => 'crypto', 'cg_id' => 'chainlink'],
+        'bitcoin_cash'     => ['label' => 'Bitcoin Cash',      'type' => 'crypto', 'cg_id' => 'bitcoin-cash'],
+        'uniswap'          => ['label' => 'Uniswap',           'type' => 'crypto', 'cg_id' => 'uniswap'],
+        'polygon'          => ['label' => 'Polygon',           'type' => 'crypto', 'cg_id' => 'matic-network'],
+        'litecoin'         => ['label' => 'Litecoin',          'type' => 'crypto', 'cg_id' => 'litecoin'],
+        'dai'              => ['label' => 'Dai',               'type' => 'crypto', 'cg_id' => 'dai'],
+        'leo_token'        => ['label' => 'LEO Token',         'type' => 'crypto', 'cg_id' => 'leo-token'],
+        'near'             => ['label' => 'NEAR Protocol',     'type' => 'crypto', 'cg_id' => 'near'],
+        'pepe'             => ['label' => 'Pepe',              'type' => 'crypto', 'cg_id' => 'pepe'],
+        'icp'              => ['label' => 'Internet Computer', 'type' => 'crypto', 'cg_id' => 'internet-computer'],
+        'kaspa'            => ['label' => 'Kaspa',             'type' => 'crypto', 'cg_id' => 'kaspa'],
+        'ethereum_classic' => ['label' => 'Ethereum Classic',  'type' => 'crypto', 'cg_id' => 'ethereum-classic'],
+        'monero'           => ['label' => 'Monero',            'type' => 'crypto', 'cg_id' => 'monero'],
+        'aptos'            => ['label' => 'Aptos',             'type' => 'crypto', 'cg_id' => 'aptos'],
+        'render'           => ['label' => 'Render',            'type' => 'crypto', 'cg_id' => 'render-token'],
+        'hedera'           => ['label' => 'Hedera',            'type' => 'crypto', 'cg_id' => 'hedera-hashgraph'],
+        'stellar'          => ['label' => 'Stellar',           'type' => 'crypto', 'cg_id' => 'stellar'],
+        'mantle'           => ['label' => 'Mantle',            'type' => 'crypto', 'cg_id' => 'mantle'],
+        'cosmos'           => ['label' => 'Cosmos',            'type' => 'crypto', 'cg_id' => 'cosmos'],
+        'okb'              => ['label' => 'OKB',               'type' => 'crypto', 'cg_id' => 'okb'],
+        'cronos'           => ['label' => 'Cronos',            'type' => 'crypto', 'cg_id' => 'crypto-com-chain'],
+        'filecoin'         => ['label' => 'Filecoin',          'type' => 'crypto', 'cg_id' => 'filecoin'],
+        'fdusd'            => ['label' => 'First Digital USD', 'type' => 'crypto', 'cg_id' => 'first-digital-usd'],
+        'stacks'           => ['label' => 'Stacks',            'type' => 'crypto', 'cg_id' => 'blockstack'],
+        'arbitrum'         => ['label' => 'Arbitrum',          'type' => 'crypto', 'cg_id' => 'arbitrum'],
+        'imx'              => ['label' => 'Immutable X',       'type' => 'crypto', 'cg_id' => 'immutable-x'],
+        'maker'            => ['label' => 'Maker',             'type' => 'crypto', 'cg_id' => 'maker'],
+        'wif'              => ['label' => 'dogwifhat',         'type' => 'crypto', 'cg_id' => 'dogwifcoin'],
+        'bittensor'        => ['label' => 'Bittensor',         'type' => 'crypto', 'cg_id' => 'bittensor'],
+        'optimism'         => ['label' => 'Optimism',          'type' => 'crypto', 'cg_id' => 'optimism'],
+        'lido_dao'         => ['label' => 'Lido DAO',          'type' => 'crypto', 'cg_id' => 'lido-dao'],
+        'sui'              => ['label' => 'Sui',               'type' => 'crypto', 'cg_id' => 'sui'],
+        'the_graph'        => ['label' => 'The Graph',         'type' => 'crypto', 'cg_id' => 'the-graph'],
+        'injective'        => ['label' => 'Injective',         'type' => 'crypto', 'cg_id' => 'injective-protocol'],
+        'vechain'          => ['label' => 'VeChain',           'type' => 'crypto', 'cg_id' => 'vechain'],
+        'arweave'          => ['label' => 'Arweave',           'type' => 'crypto', 'cg_id' => 'arweave'],
+
+        'ton'              => ['label' => 'TON Token',         'type' => 'crypto', 'cg_id' => 'the-open-network'],
+        'gram'             => ['label' => 'Gram (TON)',        'type' => 'crypto', 'cg_id' => 'the-open-network'],
+        'link'             => ['label' => 'LINK',              'type' => 'crypto', 'cg_id' => 'chainlink'],
+
+        'aave'             => ['label' => 'Aave',              'type' => 'crypto', 'cg_id' => 'aave'],
+        'algorand'         => ['label' => 'Algorand',          'type' => 'crypto', 'cg_id' => 'algorand'],
+        'eos'              => ['label' => 'EOS',               'type' => 'crypto', 'cg_id' => 'eos'],
+        'theta'            => ['label' => 'Theta Network',     'type' => 'crypto', 'cg_id' => 'theta-token'],
+        'flow'             => ['label' => 'Flow',              'type' => 'crypto', 'cg_id' => 'flow'],
+        'chiliz'           => ['label' => 'Chiliz',            'type' => 'crypto', 'cg_id' => 'chiliz'],
+        'axie_infinity'    => ['label' => 'Axie Infinity',     'type' => 'crypto', 'cg_id' => 'axie-infinity'],
+        'apecoin'          => ['label' => 'ApeCoin',           'type' => 'crypto', 'cg_id' => 'apecoin'],
+        'curve_dao'        => ['label' => 'Curve DAO Token',   'type' => 'crypto', 'cg_id' => 'curve-dao-token'],
+        'gala'             => ['label' => 'Gala',              'type' => 'crypto', 'cg_id' => 'gala'],
+        'floki'            => ['label' => 'Floki',             'type' => 'crypto', 'cg_id' => 'floki'],
+        'decentraland'     => ['label' => 'Decentraland',      'type' => 'crypto', 'cg_id' => 'decentraland'],
+        'sandbox'          => ['label' => 'The Sandbox',       'type' => 'crypto', 'cg_id' => 'the-sandbox'],
+        'worldcoin'        => ['label' => 'Worldcoin',         'type' => 'crypto', 'cg_id' => 'worldcoin-wld'],
+        'celestia'         => ['label' => 'Celestia',          'type' => 'crypto', 'cg_id' => 'celestia'],
+    ],
+
+    'paths' => [
+        'base'   => __DIR__,
+        'charts' => __DIR__ . '/charts',
+        'data'   => __DIR__ . '/data',
+        'locks'  => __DIR__ . '/locks',
+        'fonts'  => __DIR__ . '/fonts',
+        'icons'  => __DIR__ . '/icons',
+    ],
+
+    'coingecko' => [
+        'base_url'     => 'https://api.coingecko.com/api/v3',
+        'vs_currency'  => 'usd',
+        'demo_api_key' => null,
+    ],
+
+    'default_tocurrency' => 'T',
+    'toman_rate_source'  => 'kifpool',
+    'toman_rate_cache_seconds' => 120,
+    'custom_toman_rate'  => null,
+
+    'allow_dynamic_currencies' => true,
+    'max_dynamic_currencies'   => 500,
+    'dynamic_lookup_rate_limit'=> 20,
+    'dynamic_lookup_rate_window_seconds' => 60,
+    'negative_cache_seconds'   => 600,
+
+    'fixed_host' => null,
+
+    'max_period_days'  => 30,
+    'chart_width'   => 2000,
+    'chart_height'  => 1120,
+    'candle_count'  => 48,
+
+    'chart_ttl_seconds' => 102,
+
+    'refresh_after_seconds' => 100,
+    'stale_after_seconds'   => 1800,
+
+    'api_rate_limit'            => 60,
+    'api_rate_window_seconds'   => 60,
+
+    'api_all_rate_limit'          => 10,
+    'api_all_rate_window_seconds' => 60,
+
+    'lock_wait_ms'          => 1000,
+    'first_fetch_wait_ms'   => 15000,
+
+    'max_concurrent_fetches' => 6,
+    'fetch_slot_wait_ms'     => 3000,
+
+    'api_cache_seconds'     => 15,
+
+    'fetch_connect_timeout' => 8,
+    'fetch_timeout'         => 15,
+    'fetch_retries'         => 2,
+    'fetch_retry_delay_ms'  => 350,
+
+    'all_endpoint_time_budget_seconds' => 20,
+    'max_execution_seconds' => 90,
+];
